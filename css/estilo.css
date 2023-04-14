@@ -16,4 +16,10 @@
     max-width: 30%;/*pra travar um tamanho certo da imagem*/
     display: block;
 }
-
+.cabecalho nav{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    height: 100%;
+    flex-wrap: wrap;
+}
