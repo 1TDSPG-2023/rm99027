@@ -11,3 +11,9 @@
     flex-wrap: wrap;/*pra quando diminuir a tela descer o item*/
     background-color: black;
 }
+.cabecalho img{
+    width: 30%;
+    max-width: 30%;/*pra travar um tamanho certo da imagem*/
+    display: block;
+}
+
