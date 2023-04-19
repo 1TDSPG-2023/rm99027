@@ -40,6 +40,6 @@
 /*utilizando a pseudo classe hover*/
 
 .cabecalho a:hover{
-    background-color: blue;
+    background-color: white;
     color: black;
 }
