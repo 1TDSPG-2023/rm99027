@@ -51,3 +51,20 @@ html{
 .rodape a:hover{
     background-color: rgba(128, 128, 128, 0.493);
 }
+
+
+table{
+    border-collapse:collapse;
+    margin: 0 auto;
+}
+
+td,th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #dddddd;
+
+}
