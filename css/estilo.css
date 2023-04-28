@@ -2,19 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .cabecalho{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;/*pra quando diminuir a tela descer o item*/
+    flex-wrap: wrap;
     background-color: black;
 }
 
 .cabecalho img{
     width: 30%;
-    max-width: 30%;/*pra travar um tamanho certo da imagem*/
+    max-width: 30%;
     display: block;
 }
 
@@ -34,12 +35,70 @@
     color: white;
     text-align: center;
     padding: 20% 0;
-
 }
 
-/*utilizando a pseudo classe hover*/
-
+/* Utilizando a pseudo classe hover */
 .cabecalho a:hover{
-    background-color: blue;
+    background-color: white;
     color: black;
 }
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    background-color: #d9d9d9;
+}
+
+.rodape img{
+    max-width: 10%;
+    display: block;
+    margin: 0 auto;
+}
+
+.rodape nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.rodape a{
+    padding: 5%;
+}
+
+.rodape a:hover{
+    background-color: #918d8d9b;
+}
+
+.dados{
+    margin: 5% auto;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td,th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(odd){
+    background-color: #dddddd;
+}
+
+td[rowspan]{
+    text-align: center;
+}
+
+th{
+    text-align: center;
+}
+
+tr:hover{
+    background-color: #d6eeee;
+}
+
