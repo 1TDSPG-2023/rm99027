@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout Flex</title>
-    <link rel="stylesheet" href="./css/estilo.css">
+<link rel="stylesheet" href="css/estilo.css">
 </head>
-<body>
 
+<body>
+    
     <header class="cabecalho">
-        <img src="./img/logo.png" alt="Monitor de Compuiter">
+        <img src="./img/logo.png" alt="Monitor de computador">
         <nav>
             <a href="#">Item-1</a>
             <a href="#">Item-1</a>
@@ -18,63 +19,62 @@
         </nav>
     </header>
 
-    <h2 class="tit-sec" >Sessão de Fotos</h2>
-    <section class="conteudo">
+    <h2 class="tit-sec">Seção de fotos</h2>
+
+    <section class ="conteudo">
         <div>
             <img src="./img/lobo1.jpg" alt="Lobo">
-            <p>Pidao 1</p>
+            <p>Legenda</p>
         </div>
     </section>
 
-        <div class="dados">
-            <!-- /*indica o inicio da tabela*/ -->
-            <table>
-                <!-- /*indica uma linha*/ -->
-                <tr>
-                    <!-- /*indica uma coluna*/ -->
-                    <th>Nome</th>
-                    <th>Raça</th>
-                    <th>Incidência</th>
-                    <th>Gênero</th>
-                    <th>Cor</th>
-                </tr>
-                <tr>
-                    <td>Canis Lupus</td>
-                    <td>Canídeo</td>
-                    <td>Ámerica do Norte</td>
-                    <td>Fêmea</td>
-                    <td>Branca</td>
-                </tr>
-                <tr>
-                    <td>Canis Rufus</td>
-                    <td>Canídeo</td>
-                    <td>Ámerica do Norte</td>
-                    <td>Fêmea</td>
-                    <td>Cinza</td>
-                </tr>
-                <tr>
-                    <td>Chrysocyon brachyuru</td>
-                    <td>Canídeo</td>
-                    <td>Ámerica do Norte</td>
-                    <td>Macho</td>
-                    <td>Marrom</td>
-                </tr>
-                <tr>
-                    <td>Vulpes Vulpes</td>
-                    <td>Canídeo</td>
-                    <td>Ámericas, Europa e Ásia</td>
-                    <td>Macho</td>
-                    <td>Laranja</td>
-                </tr>
-            </table>
+    <div class="dados">
 
-        </div>
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Raça</th>
+                <th>Incidência</th>
+                <th>Gênero</th>
+                <th>Cor</th>
+            </tr>
+            <tr>
+                <td>Canis Lupus</td>
+                <td>Canídeo</td>
+                <td>América do Norte</td>
+                <td>Fêmea</td>
+                <td>Branca</td>
+            </tr>
+            <tr>
+                <td>Canis Rufus</td>
+                <td>Canídeo</td>
+                <td>América Central</td>
+                <td>Fêmea</td>
+                <td>Cinza</td>
+            </tr>
+            <tr>
+                <td>Chrysocyon brachyurus</td>
+                <td>Canídeo</td>
+                <td>América do Sul</td>
+                <td>Macho</td>
+                <td>Marrom</td>
+            </tr>
+            <tr>
+                <td>Vulpes vulpes</td>
+                <td>Canídeo</td>
+                <td>Américas / Europa / Ásia</td>
+                <td>Macho</td>
+                <td>Marrom</td>
+        </table>
+
+    </div>
 
     <footer class="rodape">
-        <h1>Fale Conosco</h1>
-        <nav><a href="#"><img src="./img/social-1.png" alt="Logo"></a>
-            <a href="#"><img src="./img/social-2.png" alt="Logo"></a>
-            <a href="#"><img src="./img/social-3.png" alt="Logo"></a>
+        <h2>Fale conosco</h2>
+        <nav>
+            <a href="#"><img src="./img/social-1.png" alt="logo"></a>
+            <a href="#"><img src="./img/social-2.png" alt="logo"></a>
+            <a href="#"><img src="./img/social-3.png" alt="logo"></a>
         </nav>
 
         <div>
@@ -82,24 +82,22 @@
                 <fieldset>
                     <legend>Contato</legend>
                     <div>
-                        <label for="idNm">Nome</label>
+                        <labe for="idNm">Nome</labe>
                         <input type="text" name="txtNm" id="idNm" placeholder="Nome">
                     </div>
                     <div>
-                        <label for="idEmail">Email</label>
-                        <input type="email" name="txtEmail" id="idEmail" placeholder="Email">
+                        <labe for="idEmail">Email</labe>
+                        <input type="text" name="txtEmail" id="idEmail" placeholder="Email">
                     </div>
                     <div>
                         <input type="submit" value="Enviar">
                     </div>
-
                 </fieldset>
-
             </form>
         </div>
 
-        
     </footer>
-    
+
 </body>
+
 </html>

@@ -1,13 +1,17 @@
+/* Breakpoint */
+
 @media(max-width:1004px){
     .cabecalho{
-        flex-direction:column;
+        flex-direction: column;
     }
 
-    .cabecalho>nav{
+    .cabecalho nav{
         flex-wrap: nowrap;
     }
-    .cabecalho a {
-        font-size: 3.5em;
+
+    .cabecalho a{
+        font-size: 3em;
         padding: 5% 0;
     }
 }
+/* Breakpoint */
